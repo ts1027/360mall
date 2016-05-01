@@ -18,6 +18,28 @@ a{
   text-decoration: none;
 }
 /*header*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
 .header{
   width: 100%;
   height: 42px;
@@ -62,6 +84,7 @@ a{
 }
 
 /*banner*/
+
 .banner{
   overflow: hidden;
   width: 100%;
@@ -69,7 +92,6 @@ a{
   position: relative;
   .slider-box{
     width:600%;
-   height: 194px;
     li{
        width:16.666667%;
        float: left;
@@ -162,6 +184,7 @@ a{
                 height: 16px;
                 line-height: 16px;
                 overflow: hidden;
+                color: #666;
             }
           }
         }
@@ -532,7 +555,19 @@ a{
     }
 }
 
-
+/*箭头*/
+.gotop {
+    background: url(../images/t01beee7425d59d5138.png) no-repeat;
+    background-size: 34px 34px;
+    background-position: 0 0;
+    bottom: 80px;
+    display: inline-block;
+    height: 34px;
+    position: fixed;
+    right: 0;
+    width: 34px;
+    z-index: 99;
+}
 
 
 

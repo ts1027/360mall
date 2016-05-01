@@ -6,4 +6,7 @@ $(function(){
         paginationClickable: true,
         spaceBetween: 0
     });
+
+    /*轮播*/
+
 });
