@@ -8,5 +8,13 @@ $(function(){
     });
 
     /*轮播*/
+    //头部
+    var closebtn=$(".closebtn");
+    console.log(closebtn);
+    var header=$(".header");
+    closebtn.click(function(){
+        header.css({"display":"none"});
+    })
+
 
 });
